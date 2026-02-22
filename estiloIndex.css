@@ -1,0 +1,74 @@
+* {
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #D9E7FE;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+}
+img {
+
+    border-radius: 50%;
+    margin-top: 20px;
+    border: 4px solid #87CEEB;
+    width: 200px;
+    height: 200px;
+
+}
+section {
+    background-color: white;
+    width: 600px;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0px 5px 5px rgba(149, 158, 225, 0.5);
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+a {
+    color: #599AFD;
+    font-weight: 800;
+}
+.name-Joseph {
+    background-color: #D9E7FE;
+    padding: 0;
+    box-shadow: none;
+}
+
+#about-me h2 {
+    color: #9272CD
+}
+
+#educacion h2 {
+    color: #49A7ED;
+}
+#experiencia h2 {
+    color: #FD9746;
+}
+#contact-me h2 {
+    color: #7AC89F;
+}
+
+form div{
+    margin: 15px 0 15px 0;
+}
+
+input[type="submit"] {
+    background-color: #7AC89F;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+}
+input {
+    width: 50%;
+}
+textarea {
+    width: 50%;
+}

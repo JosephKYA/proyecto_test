@@ -5,60 +5,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Esta es mi primera página web creada con HTML">
+    <link rel="stylesheet" href="estiloIndex.css">
     <title>Joseph Chi</title>
 </head>
 
 <body>
     <header>
+        <img src="https://preview.redd.it/who-is-this-guy-and-why-do-i-see-him-alot-v0-y583j1mzw1g91.jpg?width=640&crop=smart&auto=webp&s=59421ce6b8f3233b3a00083032cdaa7570e1d01b"
+            alt="Linux">
         <section class="name-Joseph">
             <h1>Joseph Javier Chi Vazquez</h1>
             <p>Ing. en Sistemas Computacionales</p>
-            <img src="https://preview.redd.it/who-is-this-guy-and-why-do-i-see-him-alot-v0-y583j1mzw1g91.jpg?width=640&crop=smart&auto=webp&s=59421ce6b8f3233b3a00083032cdaa7570e1d01b"
-                alt="Linux" width="200" height="200">
+
         </section>
 
         <nav>
             <a href="#educacion">Educación</a>
             <a href="#experiencia">Experiencia</a>
-            <a href="#contact-me">Contactame</a>
+            <a href="#contact-me">Contáctame</a>
         </nav>
     </header>
     <main>
-        <section id="educacion">
+        <section id="about-me">
             <h2>Acerca de mi</h2>
-            <p>Soy un estudiante emocionado de aprender</p>
+            <hr>
+            <p>Soy un estudiante emocionado de aprender sobre ciencia y técnología. Me gusta la programación y el
+                desarrollo de software. Soy un amateur de Linux pero me gustaría dominararlo</p>
         </section>
-        <section>
+        <section id="educacion">
             <h2>Educación</h2>
+            <hr>
             <ul>
-                <li>Licenciatura en Sistemas Computacionales - Universidad Autónoma de Campeche (2023 - 2027)</li>
-                <p>Sistemas</p>
-                <p>2023-2027</p>
+                <li>Licenciatura en Ing. en Sistemas Computacionales - Universidad Autónoma de Campeche</li>
+                <p>2023 - En curso</p>
 
-                <li>Bachillerato en Dr. Nazario Victor Montejo Godoy</li>
-                <p>2020-2023</p>
+                <li>Escuela Preparatoria Dr. Nazario Victor Montejo Godoy</li>
+                <p>2020 - 2023</p>
             </ul>
         </section>
         <section id="experiencia">
             <h2>Experiencia</h2>
+            <hr>
             <ul>
-                <li>Participación en competencias de programación</li>
-                <li>Practicante en ABC Corporation (2019 - 2020)</li>
+                <li>Hackaton TalentLand 2024</li>
+                <br>
+                <li>NASA Space App Challenge 2025</li>
             </ul>
         </section>
         <section id="contact-me">
-            <h2>Contactame</h2>
+            <h2>Contáctame</h2>
+            <hr>
             <p>Ponte en contacto conmigo</p>
             <form action="">
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="name" name="nombre" placeholder="Escribe tu Nombre" required>
-
-                <label for="correo">Correo Electrónico:</label>
-                <input type="email" id="email" name="correo" placeholder="correo@ejemplo.com" required>
-
-                <label for="mensaje">Mensaje:</label>
-                <textarea id="message" name="mensaje" rows="4" placeholder="Escribe tu mensaje aquí"></textarea>
-
+                <div>
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="nombre" placeholder="Escribe tu nombre" required>
+                </div>
+                <div>
+                    <label for="correo">Correo Electrónico:</label>
+                    <input type="email" id="email" name="correo" placeholder="correo@ejemplo.com" required>
+                </div>
+                <div>
+                    <label for="mensaje">Mensaje:</label>
+                    <br><br>
+                    <textarea id="message" name="mensaje" rows="3" placeholder="Escribe tu mensaje aquí"></textarea>
+                </div>
                 <input type="submit" value="Enviar">
             </form>
         </section>
